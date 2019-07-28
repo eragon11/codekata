@@ -1,9 +1,9 @@
 c = int(input());
 
 if (c > 0):
-    print("positive") 
+    print("Positive") 
 elif(c < 0):
-    print("negative")
+    print("Negative")
 else:
-    print("zero")
+    print("Zero")
     
