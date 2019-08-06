@@ -1,8 +1,12 @@
-x = [int(i) for i in input().split()]
+n = int(input());
+
 limit = int(input());
 
-sumofn = 0;
+for i in range(1,n+1):
+    x.append(input())
 
+sumofn = 0;
+print(x);
 for i in range(len(x)):
     if (i+1 <= limit):
         sumofn += x[i]
