@@ -8,4 +8,4 @@ for i in range(armstrong[0],armstrong[1]):
         sum += digit ** len(str(i));
         buffer //=10;
     if(sum == i):
-        print(sum);
+        print(sum, end=" ");
